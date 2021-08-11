@@ -1,0 +1,69 @@
+.section2 {
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.text-image {
+    padding: 5%;
+    width: 50%;
+}
+.image-container {
+    width: 100%;
+    background-image: url("../Assests/backgroundimg.jpg");   
+}
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.text2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.paragraph {
+    text-align: justify;
+    font-size: 16%;
+    font-family: 'messina-sans', sans-serif;
+    color: #1f1f1f;
+    padding-bottom: 10%;
+    width: 80%;
+}
+.man-img {
+    width: 80%;
+    height: 50%;
+}
+.ocean {
+    width: 80%;
+    height: 50%;
+}
+
+@media only screen and (max-width:2000px) {
+    .man-img {
+        width: 70%;
+    }
+    .ocean{
+        width: 70%;
+    }
+    .paragraph {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width:890px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .text-image {
+        width: auto;
+    }
+    .paragraph {
+        font-size: 14px;
+        width: 100%;
+    }
+    .ocean {
+        padding: 5%;
+    }
+}

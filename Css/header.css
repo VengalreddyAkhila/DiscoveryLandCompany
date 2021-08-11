@@ -7,8 +7,17 @@ body,html {
     position: relative;
 }
 .text {
-    vertical-align: middle;
-    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 70vw;
+    margin-top: 20%;
+}
+.c-hero__scroll {
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+    color:#fff;
 }
 .background-video {
     min-width: 100%;
@@ -28,9 +37,7 @@ h1 {
     font-weight: 200;
     font-size: 57px;
 }
- .header-logo{
-     margin-left: 10%;
-     padding-top: 10%;
+ .header-logo{     
      width: 20%;
      height: 20%;
  }
@@ -38,31 +45,32 @@ a{
    text-decoration: none;
    color: white;
 }
-/* .flex-row {
+.nav-bar{
+    position: relative;
+    top:50px;
+    width: 100vw;
+    height: 10vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-} */
-.nav-items {
-    align-self: end;
+    justify-content: space-around;
+}
+.nav-items {    
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    flex-direction: row;   
 }
 .nav-link {
     color: white;
     display: flex;
     align-items: flex-end;
-    padding: 1.2rem ;
-    font-size: 1.1rem;
+    margin: 10px;
 
 }
-.c-hero__scroll {
+/* .c-hero__scroll {
     margin-left: 20%;
     display: block;
     font-size: 1rem;
-    color: hsla(0, 0%, 100%, .65);
-}
+    color:#fff;
+} */
 
 @media only screen and (max-width: 360px) {
     .section1 h1 {
