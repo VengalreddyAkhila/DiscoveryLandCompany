@@ -1,0 +1,82 @@
+body,html {
+    height: 100vh;
+    margin: 0;
+}
+.section1{
+    height: 100vh;
+    position: relative;
+}
+.text {
+    vertical-align: middle;
+    margin-left: 20%;
+}
+.background-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+h1 {
+    color: white;
+    text-align: left;
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 57px;
+}
+ .header-logo{
+     margin-left: 10%;
+     padding-top: 10%;
+     width: 20%;
+     height: 20%;
+ }
+a{
+   text-decoration: none;
+   color: white;
+}
+/* .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.nav-items {
+    align-self: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.nav-link {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 1.2rem ;
+    font-size: 1.1rem;
+
+}
+.c-hero__ctas {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0rem;
+    z-index: 1;
+}
+
+.c-hero__scroll {
+    margin-left: 20%;
+    display: block;
+    font-size: .9rem;
+    color: hsla(0, 0%, 100%, .65);
+}
+
+@media only screen and (max-width: 360px) {
+    .section1 h1 {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+}
