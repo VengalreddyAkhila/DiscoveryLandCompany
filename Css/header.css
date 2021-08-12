@@ -4,14 +4,11 @@ body,html {
 }
 .section1{
     height: 100vh;
-    position: relative;
+    width: 100vw;
 }
 .text {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 70vw;
-    margin-top: 20%;
+    width: 100%;
+    top:40%;
 }
 .c-hero__scroll {
     display: flex;
@@ -22,7 +19,6 @@ body,html {
 .background-video {
     min-width: 100%;
     min-height: 100%;
-    position: fixed;
     overflow: hidden;
     z-index: -1;
     background-position: center;
@@ -47,12 +43,13 @@ a{
 }
 .nav-bar{
     position: relative;
-    top:50px;
+    bottom:110%;
     width: 100vw;
     height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
 }
 .nav-items {    
     display: flex;
@@ -64,18 +61,4 @@ a{
     align-items: flex-end;
     margin: 10px;
 
-}
-/* .c-hero__scroll {
-    margin-left: 20%;
-    display: block;
-    font-size: 1rem;
-    color:#fff;
-} */
-
-@media only screen and (max-width: 360px) {
-    .section1 h1 {
-        color: white;
-        font-size: 40px;
-        text-align: center;
-    }
 }

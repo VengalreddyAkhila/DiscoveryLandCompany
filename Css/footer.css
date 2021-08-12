@@ -6,9 +6,18 @@
     background-color: black;
     height: 70vh;
     width: 100vw;
-    overflow: hidden
+    overflow: hidden;
+}
+.footer-content{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .footer-logo{
+    display: flex;
+    align-items: flex-start;
     width: 5%;
     height: 5%;
 }

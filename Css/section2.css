@@ -1,69 +1,93 @@
 .section2 {
     background-color: #fff;
     width: 100vw;
-    display: flex;
-    flex-direction: column;
 }
+
 .text-image {
-    padding: 5%;
+    padding: 10%;
     width: 50%;
 }
+
 .image-container {
     width: 100%;
-    background-image: url("../Assests/backgroundimg.jpg");   
+    background-image: url("../Assests/backgroundimg.jpg");
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
 }
+
 .text1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-family: gt-sectra;
     font-style: normal;
 }
+
 .text2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-family: gotham;
     font-weight: 100;
     font-style: normal;
 }
+
 .paragraph {
     text-align: justify;
-    font-size: 16%;
+    font-size: 16px;
     font-family: 'messina-sans', sans-serif;
     color: #1f1f1f;
+    line-height: 1.9;
     padding-bottom: 10%;
     width: 80%;
-}
-.man-img {
-    width: 80%;
-    height: 50%;
-}
-.ocean {
-    width: 80%;
-    height: 50%;
+    margin-top: 4rem;
 }
 
-@media only screen and (max-width:2000px) {
-    .man-img {
-        width: 70%;
-    }
-    .ocean{
-        width: 70%;
-    }
-    .paragraph {
-        font-size: 15px;
-        width: 90%;
-    }
+.man-img {
+    width: 100%;    
 }
-@media only screen and (max-width:890px) {
-    .image-container {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-    .text-image {
-        width: auto;
-    }
-    .paragraph {
-        font-size: 14px;
-        width: 100%;
-    }
-    .ocean {
-        padding: 5%;
-    }
+
+.ocean {
+    padding: 9% 0;
+    height: 10%;
+    width: 40%;
+    margin-right: 100px;
 }
+
+/* explore world */
+.explore-slider{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+}
+.text-lines {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15%;
+}
+.slider-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+.button{
+    background-color: white;
+    color : solid black;
+    border-radius: 200%;
+    box-shadow: teal;
+    
+}
+/* sliding images */
+.slider-images{
+    display: flex;
+    flex-direction: row;
+}
+.slide-image{
+    width:50%;
+    height: 100%;
+}
+
+
+
