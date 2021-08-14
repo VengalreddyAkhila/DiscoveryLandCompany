@@ -4,7 +4,7 @@
     overflow: hidden;
     background-position: center;
     background-size: cover;
-    background-image: url("../Assests/gallery.jpg");
+    background-image: url("../Assests/gallery/gallery.jpg");
 }
 .Gallery{
     color: white;

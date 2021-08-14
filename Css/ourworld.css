@@ -38,7 +38,6 @@ a{
 .section2{
     width: 100vw;
     background-color: black;    
-
 }
 .image-class{
     display: flex;
@@ -52,6 +51,9 @@ a{
     height: 100%;
 }
 .exp-box{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,4 +74,11 @@ a{
     bottom:90%;
     width: 40%;
     justify-content: flex-start;
+}
+.title{
+    width: 200%;    
+}
+.location{
+    width: 250%;
+    color:grey;
 }
