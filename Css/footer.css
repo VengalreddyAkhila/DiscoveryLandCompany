@@ -39,14 +39,27 @@ ul {
 .content3 {
     color: white;
 }
-@media only screen and (max-device-width: 360px) {
-    .content1 .content2 .content3 {
-        color: white;
-        font-size: 10px;
-        text-align: center;
-    }
- 
-}
-webkit-scrollbar {
+
+::-webkit-scrollbar {
     width: 5px;
   }
+  @media only screen and (max-device-width: 900px) {
+   .footer{
+        height: 500px;
+    }
+    .footer-content{
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-device-width:600px){
+    .footer{
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content{
+        line-height: 1.5;
+    }
+}
+  
+    

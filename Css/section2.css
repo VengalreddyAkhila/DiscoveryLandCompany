@@ -20,18 +20,10 @@ c.section2 {
 }
 
 .text1 {
-    font-size:20px;
+    font-size:30px;
     font-family: gt-sectra;
     font-style: normal;
 }
-
-.text2 {
-    font-size: 20px;
-    font-family: gotham;
-    font-weight: 100;
-    font-style: normal;
-}
-
 .paragraph {
     text-align: justify;
     font-size: 16px;
@@ -88,12 +80,23 @@ c.section2 {
     width:50%;
     height: 100%;
 }
+
 @media only screen and (max-device-width:900px){
     .image-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .man-img{
+        width: 100%;
+    }
+    .ocean{
+        width: 70%;
+    }
+    .paragraph{
+        font-size: 20px;
+        width: 100%;
     }
     
 }
