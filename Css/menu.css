@@ -1,0 +1,32 @@
+.menubar{
+    width: 30px;
+    height: 4px;
+    border: 10px solid red;
+    background: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.menubar .toggle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;    
+    height: 50px;
+    opacity: 0;
+}
+.menubar .show{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

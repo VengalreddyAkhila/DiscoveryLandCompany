@@ -8,16 +8,38 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/gallery.css">
         <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <script defer src="../js/gallery.js"></script>
         <title>Gallery</title>
 </head>
 
 <body>
+        <!-- <div class="menu-bar">
+                <input type="checkbox" class="toggle">
+                <div class="show">
+                        <div></div>
+                </div>
+                <div class="menu">
+                        <div>
+                                <div>
+                                        <ul>
+                                                <li><a href="#">Magazine</a></li>
+                                                <li><a href="#">Company</a></li>
+                                                <li><a href="#">Foundation</a></li>
+                                                <li><a href="#">Careers</a></li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div> -->
         <header class="section">
                 <div class="nav-bar">
                         <div class="logo">
                                 <img src="../Assests/headerlogo.svg" alt="">
                         </div>
-                        <nav class="nav-class">
+                        <!-- <button class="dropdown" onclick="show">
+                                                       </button> -->
+                        <nav class="nav-class">                              
                                 <ul class="nav-items" id="header">
                                         <li class="nav-link"><a href="../Pages/Aboutdlc.html">AboutDLC</a></li>
                                         <li class="nav-link"><a href="../Pages/ourworld.html">OurWorlds</a></li>
@@ -26,11 +48,12 @@
                                         <li class="nav-link"><a href="../Pages/press.html">Press</a></li>
                                 </ul>
                         </nav>
-                         <div class="navbar-toggle" onclick="show">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                        </div> 
+                        <div class="bar"  onclick="myFunction(this)">
+                        <div class="icon1"></div>
+                        <div class="icon2"></div>
+                        <div class="icon3"></div>
+                        </div>
+                        
                 </div>
                 <div class="Gallery">Gallery</div>
         </header>
@@ -83,38 +106,38 @@
                 </div>
         </div>
 
-        <div id="footer" class="footer">                
+        <div id="footer" class="footer">
                 <div class="footer-content">
-                <div class="footer-logo">
-                        <img src="..\Assests\footerlogo.svg">
+                        <div class="footer-logo">
+                                <img src="..\Assests\footerlogo.svg">
+                        </div>
+                        <div class="content1">
+                                <ul>
+                                        <li> GET IN TOUCH </li>
+                                        <li>(480)-624-5200</li>
+                                        <li><a class="mail" href="">mail@discoverylandco.com</a></li>
+                                </ul>
+                        </div>
+                        <div class="content2">
+                                <ul>
+                                        <li>About DLC </li>
+                                        <li>Our Worlds </li>
+                                        <li> Experiences</li>
+                                        <li><a href="../Pages/gallery.html">Gallery</a></li>
+                                        <li>Press </li>
+                                </ul>
+                        </div>
+                        <div class="content3">
+                                <ul>
+                                        <li>Magazine</li>
+                                        <li>Carrers</li>
+                                        <li>Foundation</li>
+                                        <li>Company</li>
+                                        <li>Contact</li>
+                                        <li>Privacy</li>
+                                </ul>
+                        </div>
                 </div>
-                <div class="content1">
-                        <ul>
-                                <li> GET IN TOUCH </li>
-                                <li>(480)-624-5200</li>
-                                <li><a class="mail" href="">mail@discoverylandco.com</a></li>
-                        </ul>
-                </div>
-                <div class="content2">
-                        <ul>
-                                <li>About DLC </li>
-                                <li>Our Worlds </li>
-                                <li> Experiences</li>
-                                <li><a href="../Pages/gallery.html">Gallery</a></li>
-                                <li>Press </li>
-                        </ul>
-                </div>
-                <div class="content3">
-                        <ul>
-                                <li>Magazine</li>
-                                <li>Carrers</li>
-                                <li>Foundation</li>
-                                <li>Company</li>
-                                <li>Contact</li>
-                                <li>Privacy</li>
-                        </ul>
-                </div>
-        </div>
         </div>
 </body>
 
