@@ -200,11 +200,9 @@
     font-size: small;
     top: 10%;
 }
-@media only scree and (max-device-width:700)
+@media only scree and (max-device-width:700px)
 {
     .section2{
-        display:flex ;
-        justify-content: center;
         flex-direction: column;
     }
 }
