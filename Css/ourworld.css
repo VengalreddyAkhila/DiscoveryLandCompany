@@ -81,7 +81,7 @@ a{
 .location{
     width: 250%;
     color:grey;
-} @media screen and (max-device-width:700px) {
+} @media screen and (max-device-width:600px) {
     
     .cards{
         flex-direction: column;

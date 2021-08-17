@@ -88,4 +88,12 @@ c.section2 {
     width:50%;
     height: 100%;
 }
-
+@media only screen and (max-device-width:900px){
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

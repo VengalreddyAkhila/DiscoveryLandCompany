@@ -39,7 +39,7 @@ ul {
 .content3 {
     color: white;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-device-width: 360px) {
     .content1 .content2 .content3 {
         color: white;
         font-size: 10px;
@@ -47,6 +47,6 @@ ul {
     }
  
 }
-::-webkit-scrollbar {
+webkit-scrollbar {
     width: 5px;
   }

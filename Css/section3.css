@@ -36,4 +36,13 @@
     border: 2px solid white;
     width:20px;
 }
+@media only screen and (max-device-width:900px) {
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+       
+}
+
 
