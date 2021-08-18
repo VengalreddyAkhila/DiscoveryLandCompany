@@ -1,4 +1,4 @@
-c.section2 {
+.section2 {
     background-color: #fff;
     width: 100vw;
 }
@@ -47,6 +47,7 @@ c.section2 {
 }
 
 /* explore world */
+
 .explore-slider{
     display: flex;
     flex-direction: row;

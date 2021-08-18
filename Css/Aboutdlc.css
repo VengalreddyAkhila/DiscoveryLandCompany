@@ -364,4 +364,9 @@ a{
         color: blue;
     }
 }
+@media only screen and (max-device-width: 900px) {
+    .nav-items{
+        display: block;
+    }
+}
 
