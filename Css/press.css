@@ -58,58 +58,95 @@ a{
     align-items: center;
 }
 .section2{
-    border: 2px solid red;
     width: 100vw;
     background-color: gainsboro;
 }
-.sec2-text{
-    border: 2px solid yellow;
+.sec2-heading{
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 .sec2-images{
-    border: 2px solid blue;
     width: 70%;
     height: 70%;
     overflow: hidden;
     object-fit: cover;
-    margin-left: 5%;
+    margin-left: 5%;    
 }
-.myslides{
-    border: 2px solid green;
+.sec2{
+    display: flex;
+    flex-direction: row;
 }
 .img-text{
-    border:2px solid red;
-    width: 40%;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transform: translate(-200px,-20px);
+}
+.press-text{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 70%;
+}
+.press-para{
+    font-size: 15px;
+    line-height: 2;
 }
 .sec2-indicators{
-    border: 2px solid pink;
     width: 100%;
     height: 5%;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
-.indicators{
+.indicator{
     border: 2px solid yellow;
 }
-.glyphicon-chevron-left{
-    border-radius: 100%;
-    background-color: red;
-    height: 100%;
+.sec2-a{
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 50px;
 }
-.glyphicon-chevron-right{
-    border-radius: 100%;
-    background-color: red;
-    height: 100%;
+.arrow-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-device-width:1000px){
+    .sec2-images{
+        width: 1300px;
+    }
+    .img-text{
+        transform: translate(-200px,50px);
+        width: 1000px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        margin-top: 5%;
+        margin-bottom: 5%;        
+    }   
+}
+@media only screen and (max-device-width:800px){
+    .section2{
+        width: 770px;
+    }
+    .sec2-images{
+        width: 4000px;
+    }
+    .img-text{
+        transform: translate(-200px,-10px);
+        width: 3500px;
+        height: 600px;
+    }
 }
