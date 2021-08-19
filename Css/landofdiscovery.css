@@ -3,6 +3,7 @@
     width: 100vw;  
     height: 150vh;
     background-color: rgb(243,243,243);
+    padding-top: 5%;
 }
 .globe-head{
     width: 30%;
@@ -79,7 +80,6 @@
     color: gainsboro;
 }
 .coordinates{
-    border: 2px solid red;
     width: 40%;
     height: 20%;
     display: flex;
@@ -90,44 +90,8 @@
     color: rgb(231, 231, 231);
 }
 .black-box-image{
-    transform: translate(00px, 1200px);
-    border: 2px solid red;
-    height: 55%;
+    transform: translate(1000px, -1900px);  
+    height: 100%;
     width: 20%;
-  
-    right: 5%;
-    top : 2%;
-}
-.map-image{
-    position: absolute;
-    background-color: black;
-    height: 50%;
-    width: 50%;
-    z-index: 1;
-    right: 0%;
-    top: 15%;
-}
-.map{
-    position: absolute;
-    height: 55%;
-    width: 25%;
-    z-index: 1;
-    right: 5%;
-    top: 2%;
-}
-.caption-3{
-    font-size: 45px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 6vh;
-
-}
-/* three image grid  */
-.grid-images {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-}
-.grid {
-    height: 649px;
-    width: 565px;
-    margin-top: 0px;
+    overflow: hidden;
 }

@@ -1,4 +1,4 @@
-.section{
+.section1{
     width: 100vw;
     height: 100vh;
     background-image: url("../Assests/press/img1.jpg");
@@ -56,4 +56,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.glyphicon-chevron-left{
+    border-radius: 100%;
+    background-color: red;
+    height: 100%;
+}
+.glyphicon-chevron-right{
+    border-radius: 100%;
+    background-color: red;
+    height: 100%;
 }

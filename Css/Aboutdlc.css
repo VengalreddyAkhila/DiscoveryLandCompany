@@ -358,7 +358,8 @@ a{
         bottom: 80%;
     }
     .sec10{
-        height: 100%;
+       
+        bottom: 200px;
     }
     .sec10-text{
         color: blue;
