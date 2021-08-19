@@ -1,6 +1,133 @@
-.landofdiscovery{
-    height: 120vh;
-    max-width: 100%;
+
+.globe-section{
+    width: 100vw;  
+    height: 150vh;
+    background-color: rgb(243,243,243);
+}
+.globe-head{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.globe-para{
+    font-family: 'Times New Roman', Times, serif;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;   
+    line-height: 5vh;
+}
+.globe-items{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.globe-image{
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    
+    object-fit: cover;
+}
+.black-box {
+    transform: translate(680px, -1100px);   
+    background-color: black;
+    width: 50%;
+    height: 60%;    
+}
+.arrow-buttons{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.arrow{
+    background-color: transparent;
+    border: none;
+}
+
+.sun-wind-path{
+    height: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weather-txt{  
+    color: #b6b1b1;
+    font-size: 1rem;
+}
+.address{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.address-text{
+    font-size: 1.1rem;
+    color: rgb(173, 168, 168);
+}
+.main-address{
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    color: gainsboro;
+}
+.coordinates{
+    border: 2px solid red;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.coordinates-text{
+    font-size: 1rem;
+    color: rgb(231, 231, 231);
+}
+.black-box-image{
+    transform: translate(00px, 1200px);
+    border: 2px solid red;
+    height: 55%;
+    width: 20%;
+  
+    right: 5%;
+    top : 2%;
+}
+.map-image{
+    position: absolute;
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    right: 0%;
+    top: 15%;
+}
+.map{
+    position: absolute;
+    height: 55%;
+    width: 25%;
+    z-index: 1;
+    right: 5%;
+    top: 2%;
+}
+.caption-3{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 6vh;
+
+}
+/* three image grid  */
+.grid-images {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.grid {
+    height: 649px;
+    width: 565px;
+    margin-top: 0px;
 }
