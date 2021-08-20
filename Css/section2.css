@@ -80,20 +80,19 @@
     overflow: hidden;
 }
 .slider-images {
-    display: grid;
-    gap: 25px;
-    grid-auto-flow: column;
-    position: absolute;
-    overflow: hidden;
-    animation: scrolling 20s linear infinite;
+    behavior: scroll;
+    direction: left;
+    
+
+    
 }
 
 @keyframes scrolling {
-    0% {
-        left: 0;
+    0%{
+        transform: scaleX(0px);
     }
-    100% {
-        left: -100%;
+    100%{
+        transform: scaleX(-100px);
     }
 }
 .slide-image{

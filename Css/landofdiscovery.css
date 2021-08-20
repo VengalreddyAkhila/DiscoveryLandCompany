@@ -38,12 +38,18 @@
     height: 60%;    
 }
 .arrow-buttons{
+
     width: 30%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+}
+.carousel-control{
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 75%;
 }
 .arrow{
     background-color: transparent;
@@ -90,20 +96,23 @@
     color: rgb(231, 231, 231);
 }
 .black-box-image{
-    transform: translate(1000px, -1900px);  
-    height: 100%;
+    
+    transform: translate(1000px, -1700px);  
+    height: 50%;
     width: 20%;
     overflow: hidden;
 }
+/* .carousel-inner{
+    border: 20px solid red;
+} */
 @media only screen and (max-device-width:1024px) {
     .globe-section{
-        border: 2px solid red;
         height: 100%;
         width: 100%;
         overflow: hidden;
     }
     .black-box{
-        border: 2px solid blue;
+      
         height: 40%;
         transform: translate(500px, -1100px); 
     }
