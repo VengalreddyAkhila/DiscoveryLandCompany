@@ -10,11 +10,13 @@
         <link rel="stylesheet" href="../css/press.css">
         <link rel="stylesheet" href="../css/presssec3.css">
         <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/carousel.css">
+         <link rel="stylesheet" href="../css/carousel.css"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script defer src="../js/press.js"></script>
+         <script defer src="../js/press.js"></script> 
+        <script defer src="../js/presssec3.js"></script>
+
         <title>OurWorld</title>
 </head>
 
@@ -39,7 +41,7 @@
                 </div>
                 <div class="scroll">scroll to explore</div>
         </header>
-         <div class="section2">
+          <div class="section2">
          <div class="sec2">
                 <h2>Latest News</h2>  
                 <div id="myCarousel" class="carousel slide" >              
@@ -73,8 +75,8 @@
                 <div class="white-box">
                 <div class="img-text">
                         <div class="press-text" ><h>News</h>
-                           <h3 class="sub-text" id="text-sec2">Discovery's newest <br>property in Kaua'i North <br> Shore Preserve</h3></div>
-                        <div class="press-para" id="para-sec2"><p>
+                           <h3 class="sub-text" id="newstext">Discovery's newest <br>property in Kaua'i North <br> Shore Preserve</h3></div>
+                        <div class="press-para" id="newspara"><p>
                                 Discovery Land is excited to announce our <br>
                                 25th residential club community on the majestic <br>
                                 North Shore of Kaua'i North Shore Preserve, a one-of-<br>
@@ -86,17 +88,17 @@
                          <button class="sec2-a" href="">Explore</button>
                 </div>
                 </div>
-              </div>  
+              </div>   
               <!-- section3 -->
-         <!-- <div class="section3">
+         <div class="section3">
                 <div class="main-heading">
                         <h3 class="heading">Press</h3>
                         <div class="press-articles">
                                 <div class="sec3-para">
-                                        <p1 class="sec3" id="text-sec3">This property company ups the Ante <br>
+                                        <p1 class="sec3" id="image1">This property company ups the Ante <br>
                                                 with Luxury and Sustainability.
                                         </p1>
-                                        <div class="date" id="sec3-date">
+                                        <div class="date" id="picture1">
                                                 <b>sunset magazine | August 13, 2021</b>
                                         </div>
                                         <div class="button">
@@ -104,10 +106,10 @@
                                         </div>
                                 </div>
                                 <div class="sec3-para">
-                                        <p1 class="sec3" id="text-sec3">This property company ups the Ante <br>
+                                        <p1 class="sec3" id="image2">This property company ups the Ante <br>
                                                 with Luxury and Sustainability.
                                         </p1>
-                                        <div class="date" id="sec3-date">
+                                        <div class="date" id="picture2">
                                                 <b>sunset magazine | August 13, 2021</b>
                                         </div>
                                         <div class="button">
@@ -115,12 +117,12 @@
                                         </div>
                                 </div>
                         </div>
-                         <div class="press-articles">
+                          <div class="press-articles">
                                 <div class="sec3-para">
-                                        <p1 class="sec3">This property company ups the Ante <br>
+                                        <p1 class="sec3" id = "image3">This property company ups the Ante <br>
                                                 with Luxury and Sustainability.
                                         </p1>
-                                        <div class="date">
+                                        <div class="date" id ="picture3">
                                                 <b>sunset magazine | August 13, 2021</b>
                                         </div>
                                         <div class="button">
@@ -129,34 +131,35 @@
                                 </div>
         
                                 <div class="sec3-para">
-                                        <p1 class="sec3">This property company ups the Ante <br>
+                                        <p1 class="sec3" id="image4">This property company ups the Ante <br>
                                                 with Luxury and Sustainability.
                                         </p1>
-                                        <div class="date">
+                                        <div class="date" id="picture4">
                                                 <b>sunset magazine | August 13, 2021</b>
                                         </div>
                                         <div class="button">
                                                 <button class="article">Read Article</button>
                                         </div>
                                 </div>
-                        </div> 
+                        </div>  -->
                       
                 </div>
-                <div class="arrows" >
-                        <button class="left-button" onclick="prev()">
+                
+                <div class="arrow">
+                        <button class="left " onclick="prev()">
                             <i class="bi bi-arrow-left"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
                               </svg>
                            </button>
-                           <button class="right-button" onclick="next()">
+                           <button class="right " onclick="next()">
                             <i class="bi bi-arrow-right"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                               </svg>
                         </button>
                     </div>
-        </div>  -->
+        </div> 
       
         <!-- footer-section -->
         <div id="footer" class="footer">
