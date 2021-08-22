@@ -1,5 +1,5 @@
 .section3{
-  
+  border: 2px solid yellow;
     width: 100vw;
 }
 .heading{
@@ -49,7 +49,18 @@
     display: flex;
     justify-content: center;
 }
-.arrow-buttons{
-    border: 2px solid red;
+.arrows{
+    border: 10px solid red;
     height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.carousel-control{
+    border:2px solid red;
+    height: 90px;
+    margin-left: 45%;
+    margin-right: 35%;
+    bottom: 78%;  
+    border: none;
 }

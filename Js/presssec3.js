@@ -1,32 +1,27 @@
 var blackbox= [
     {        
         maintext : "This property company ups the Ante with Luxury and Sustainability.",
-        date : "November 21 2021",
-        magazine:"Newyork times"
+        date : "Newyorktimes | November 21 2021"
     
     },
     {       
         maintext : " Sustainability.",
-        date : "jan 21 2021",
-        magazine:" times"
+        date : "Times | jan 21 2021"
     
     },
     {       
         maintext : " Ante with Luxury and Sustainability.",
-        date : "may 21 2021",
-        magazine:"Newyork "
+        date : "Newyork | may 21 2021"
     
     },
     {        
         maintext : "This property company ups the Ante with Luxury and Sustainability.",
-        date : "august 21 2021",
-        magazine:"delhi"
+        date : "delhi | august 21 2021"
     
     },
     {        
         maintext : " Luxury and Sustainability.",
-        date : "November 21 2021",
-        magazine:"sdefr"
+        date : "Mumbai | November 21 2021"
     
     }
 ]
@@ -42,8 +37,6 @@ function prev(){
 function changeBlackBox(){
     if(index < 0) index = blackbox.length -1;
     if(index > blackbox.length ) index = 0 ;    
-    document.getElementById("main-text").innerHTML = blackbox[index].maintext;
-    document.getElementById("sub-text").innerHTML = blackbox[index].date;
-    document.getElementById("weather").innerHTML = blackbox[index].magazine;
-
-}
+    document.getElementById("text-sec3").innerHTML = "Luxury and Sustainability.";
+    document.getElementById("sec3-date").innerHTML = blackbox[index].date;
+  }
