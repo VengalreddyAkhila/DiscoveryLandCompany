@@ -241,6 +241,16 @@
         justify-content: center;
         align-items: center;
     }
+    .section4{
+       
+        bottom: 500px;
+        height: 500px;
+    }
+    .sec4-text{
+     
+        bottom: 700px;
+        color: white;
+    }
 }
 @media only screen and (max-device-width:1000px){
     .exp-text{

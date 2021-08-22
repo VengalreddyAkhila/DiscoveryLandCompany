@@ -46,8 +46,7 @@ function prev(){
 }
 function changeBlackBox(){
     if(index < 0) index = blackbox.length -1;
-    if(index > blackbox.length ) index = 0 ;
-    
+    if(index > blackbox.length ) index = 0 ;    
     document.getElementById("main-text").innerHTML = blackbox[index].maintext;
     document.getElementById("sub-text").innerHTML = blackbox[index].subtext;
     document.getElementById("weather").innerHTML = blackbox[index].weather;
