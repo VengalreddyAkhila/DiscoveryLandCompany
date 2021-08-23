@@ -14,27 +14,18 @@
 </head>
 
 <body>
-        <!-- <div class="menu-bar">
-                <input type="checkbox" class="toggle">
-                <div class="show">
-                        <div></div>
-                </div>
-                <div class="menu">
-                        <div>
-                                <div>
-                                        <ul>
-                                                <li><a href="#">Magazine</a></li>
-                                                <li><a href="#">Company</a></li>
-                                                <li><a href="#">Foundation</a></li>
-                                                <li><a href="#">Careers</a></li>
-                                        </ul>
-                                </div>
-                        </div>
-                </div>
-        </div> -->
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Magazine</a>
+                <a href="#">Company</a>
+                <a href="#">Foundation</a>
+                <a href="#">Careers</a>
+                <a href="#">Conatct</a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" class="openmenu"onclick="openNav()">&#9776;</span>
         <header class="section">
-                <div class="nav-bar">
-                        <div class="logo">
+                <div class="nav-bar" id="navbar">
+                        <div class="logo" id="logo">
                                 <img src="../Assests/headerlogo.svg" alt="">
                         </div>
                         <!-- <button class="dropdown" onclick="myFunction()">

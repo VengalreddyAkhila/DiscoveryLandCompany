@@ -3,7 +3,6 @@
     width: 100vw;  
     height: 150vh;
     background-color: rgb(243,243,243);
-    padding-top: 5%;
 }
 .globe-head{
     width: 30%;
@@ -107,16 +106,21 @@
 } */
 @media only screen and (max-device-width:1024px) {
     .globe-section{
+        border: 10px solid red;
         height: 80%;
         width: 100%;
         overflow: hidden;
     }
-    .black-box{      
+    .black-box{   
+        border: 2px solid yellow;   
         height: 40%;
         transform: translate(500px, -1100px); 
     }
     .black-box-image{
-        transform: translate(800px, -1900px);  
+        border: 2px solid brown;
+        transform: translate(800px, -1900px); 
+        overflow:hidden; 
+        height: 50%;
     }
     
 }

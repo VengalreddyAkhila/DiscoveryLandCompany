@@ -1,5 +1,5 @@
  
-   var whiteboxcontents= [
+   let whiteboxcontents= [
        {
            heading: "Costa Tera<br>Discovery's 23rd property",
            para:"Discovery land company the world leading<br>developer of luxury private residential communities,<br>clubs,and resorts ,has announced its 23rd propert and <br>first in europe."
@@ -13,19 +13,19 @@
            para:"Since then, however, there have been a number <br>of developments in the technologies used in an Ajax application,<br>and in the definition of the term Ajax itself. XML is no<br>longer required for data interchange and,therefore, XSLT is<br>no longerrequired for the manipulation of data."
        }
    ]
-   var index = 0;
-function next(){
-    index ++ ;
+   let number = 0;
+function sec2_next(){
+    number ++ ;
     changeWhiteBox();
 }
-function prev(){
-    index --;
+function sec2_prev(){
+    number --;
     changeWhiteBox();
 }
 function changeWhiteBox(){
-    if(index < 0) index = whiteboxcontents.length -1;
-    if(index >  whiteboxcontents.length ) index = 0 ;    
-    document.getElementById("newstext").innerHTML =  whiteboxcontents[index].heading;
-    document.getElementById("newspara").innerHTML =  whiteboxcontents[index].para;
+    if(number < 0) number = whiteboxcontents.length -1;
+    if(number >= whiteboxcontents.length ) number = 0 ;    
+    document.getElementById("newstext").innerHTML =  whiteboxcontents[number].heading;
+    document.getElementById("newspara").innerHTML =  whiteboxcontents[number].para;
 }
    

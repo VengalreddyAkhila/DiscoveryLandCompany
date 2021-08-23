@@ -47,7 +47,11 @@
 }
 
 /* explore world */
-
+.sliding_image{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
 .explore-slider{
     display: flex;
     flex-direction: row;
@@ -69,35 +73,12 @@
     background-color: white;
     color : solid black;
     border-radius: 200%;
-    box-shadow: teal;
-    
+    box-shadow: teal;    
 }
-/* sliding images */
-
-.slider {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-.slider-images {
-    behavior: scroll;
-    direction: left;
-    
-
-    
-}
-
-@keyframes scrolling {
-    0%{
-        transform: scaleX(0px);
-    }
-    100%{
-        transform: scaleX(-100px);
-    }
-}
-.slide-image{
-    height: 620px;
-    width: 500px;
+.slider-images{
+    border: 10px solid yellow;
+    display: flex;
+    flex-direction: row;
 }
 
 @media only screen and (max-device-width:900px){
