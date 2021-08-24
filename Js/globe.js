@@ -54,3 +54,10 @@ function changeBlackBox(){
     document.getElementById("suntemp").innerHTML = blackbox[index].suntemp;
 }
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }

@@ -16,7 +16,7 @@ a{
     text-decoration: none;
     color: white;
  }
-.nav-bar{
+.nav-bar{   
     width: 100vw;
     height: 30vh;
     display: flex;
@@ -25,20 +25,61 @@ a{
     align-items: flex-start;
     top: 5%;
 }
-.nav-items {  
+.nav-items {     
     margin-top: 20%;  
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
     width: 120%;    
 }
-.nav-link {
+.nav-link {  
     color: white;
     display: flex;
     align-items: flex-end;
     margin: 10px;
 
 }
+.sidenav {
+    position: fixed;
+  overflow: hidden;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: #f1f1f1;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 .sec-text{
     width: 80%;
     height: 40%;
@@ -144,14 +185,14 @@ a{
     
 }
 .slider {
-    border: 20px solid red;
+    
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
 }
 .slider-images {
-    border: 2px solid yellow;
+ 
     display: grid;
     gap: 15px;
     grid-auto-flow: column;
@@ -304,26 +345,44 @@ a{
     display: flex;
     justify-content: center;
 }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 @media only screen and (max-device-width:1100px){
     .section2{      
-        height: 110%;
+        height: 110%;      
+    }
+    .paragraph{
+        font-size: 50px;
     }
     .section3{
         justify-content: center;
         align-items: center;
     }
-    .para{     
+    .para{          
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         height: 100%;
-        font-size: 15px;
+        font-size: 20px;
     }
-    .sec3-img{      
+    .heading{    
+        font-size: 50px;
+    }
+    .paragraph1{      
+        width: 100%;
+        font-size: 30px;
+    }
+    .paragraph2{      
+        width: 100%;
+        font-size: 30px;
+    }
+        .sec3-img{      
         margin-bottom: 2%;
         width: 50%;
     }
-    .section4{       
+    .section4{        
         height: 100%;
         width: 100%;
         display: flex;
@@ -334,6 +393,9 @@ a{
         justify-content: center;
         align-items: center;
         margin-left: 2%;
+    }
+    .explore-slider{
+        border: 2px solid yellow;
     }
     .section6{       
         height: 100%;
