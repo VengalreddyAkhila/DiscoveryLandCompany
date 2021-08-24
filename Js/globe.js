@@ -53,3 +53,4 @@ function changeBlackBox(){
     document.getElementById("windspeed").innerHTML = blackbox[index].windspeed;
     document.getElementById("suntemp").innerHTML = blackbox[index].suntemp;
 }
+
