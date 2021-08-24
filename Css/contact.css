@@ -1,0 +1,111 @@
+.section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Assests/AboutDlc/lastimage.jpg");
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    margin-top:5%;
+    width: 20%;
+    height: 20%;
+}
+a{
+    text-decoration: none;
+    color: white;
+ }
+.nav-bar{   
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    top: 5%;
+}
+.nav-items {     
+    margin-top: 20%;  
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 120%;    
+}
+.nav-link {  
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+
+}
+.sidenav {
+    position: fixed;
+  overflow: hidden;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: #f1f1f1;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sec-text{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.scroll{
+    width: 40%;
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    width: 100vw;
+    height: 50vh;
+}
+.paragraph{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+    color: gray;
+}
