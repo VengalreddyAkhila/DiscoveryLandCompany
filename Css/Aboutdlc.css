@@ -192,24 +192,25 @@ a{
     position: relative;
 }
 .slider-images {
- 
-    display: grid;
-    gap: 15px;
-    grid-auto-flow: column;
-    position: absolute;
-    overflow: hidden;
+    /* display: grid; */
+    /* gap: 15px; */
+   display: flex;
+   flex-direction: row;
+    position: relative;    
     animation: scrolling 20s linear infinite;
 }
 
 @keyframes scrolling {
     0% { transform: translateX(0px); }
-	100% { transform: translateX(-1000px);  }
+    20%{transform: translateX(-20%);}
+    40%{transform: translateX(-40%);}
+	100% { transform: translateX(-100%);  }
 }
+/*slider images*/
 .slide-image{
     height: 600px;
     width: 400px;
 }
-
 .section6{
     width: 100vw;
     height: 110vh;

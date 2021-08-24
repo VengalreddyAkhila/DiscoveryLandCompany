@@ -29,3 +29,10 @@ function changeWhiteBox(){
     document.getElementById("newspara").innerHTML =  whiteboxcontents[number].para;
 }
    
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
