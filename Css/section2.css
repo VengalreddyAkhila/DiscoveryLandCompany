@@ -76,7 +76,6 @@
     box-shadow: teal;    
 }
 .slider-images{
-    border: 10px solid yellow;
     display: flex;
     flex-direction: row;
 }

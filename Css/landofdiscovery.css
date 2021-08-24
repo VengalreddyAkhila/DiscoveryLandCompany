@@ -121,6 +121,7 @@
         transform: translate(800px, -1900px); 
         overflow:hidden; 
         height: 50%;
+        object-fit: cover;
     }
     
 }
