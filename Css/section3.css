@@ -41,7 +41,6 @@
 }
 @media only screen and (max-device-width:1100px){
     .cards{
-        border: 10px solid green;
         flex-direction: column;
         justify-content: center;
         align-items: center;

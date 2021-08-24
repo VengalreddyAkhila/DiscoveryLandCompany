@@ -106,18 +106,16 @@
 } */
 @media only screen and (max-device-width:1024px) {
     .globe-section{
-        border: 10px solid red;
         height: 80%;
         width: 100%;
         overflow: hidden;
     }
     .black-box{   
-        border: 2px solid yellow;   
+
         height: 40%;
         transform: translate(500px, -1100px); 
     }
     .black-box-image{
-        border: 2px solid brown;
         transform: translate(800px, -1900px); 
         overflow:hidden; 
         height: 50%;
